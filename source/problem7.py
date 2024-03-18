@@ -25,19 +25,19 @@ text == text.replace(".","")
 
 # TODO 3. Fix errors near this line
 
-# Prepare all lowercase of string.
+# Prepare all lowercase of string chars
 # and split the text into words to create a list
 words == text.lower().split()
 
 # Get only the unique words from the list
-# TODO 1. Create a variable to contain the unique words prepared from a function
+# TODO 1. Create a variable to contain the unique words prepared from the getUniqueWords() function
 # unique_words = ...
 
 # Count word frequencies
 word_frequencies = {word: words.count(word) for word in unique_words}
 
 # Display results
-# TODO 2. Fix errors in the below output lines
+# TODO 2. Fix the below print statements. 
 print("Original Text: {text}")
 print(" {Size} of dictionary: {sizeOf(word_frequencies)}")
 print(" ----- ")

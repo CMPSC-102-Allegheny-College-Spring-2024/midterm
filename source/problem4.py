@@ -50,9 +50,9 @@ if __name__ == "__main__":
     base_list = ["1","2","3","4"]
 
     print("Length 2 cartesian products")
-    # TODO 1. Create a variable for permutation calculation function
+    # TODO 1. Create a variable for the output from the cartesian_prod() function. Print these values below.
     cartesian_product_monoid(base_list, base_list)
     print(f"\t [+] Length 2 Permutations_list : ")
-    # TODO 2: Determine the number of permutations that were created 
+    # TODO 2: Determine the number of permutations that were created. Print this value below.
     print(f"\t [+] Number of permutations : ")
 

@@ -6,10 +6,9 @@
 ##########################################################################
 
 def cube_root_approximation(number, tolerance=1e-6):
-    # TODO 4. Find and fix the error to complete the function.
     # Initial guess for the cube root
-    # guess = number / 2.0 # one way to start
-    myGuess = 1
+    # TODO 4. Find and fix the error to complete the function.
+    myGuess = 5
     # Iterate until the approximation is within the specified tolerance
     while abs(guess**3 - number) > tolerance:
         # Update the guess using the approximation formula

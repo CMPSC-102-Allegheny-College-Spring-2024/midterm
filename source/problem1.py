@@ -52,7 +52,8 @@ def approximate_pi(n):
 
         total += 1
 
-    # TODO: 1. Calculate the approximation of pi using `inside_circle` and `total` variables.
+    # TODO: 1. Calculate the approximation of pi using `inside_circle` and `total` variables. 
+    # The equation is: (inside_circle divided by total) times 4
     # pi_approx = ...
 
     # TODO: 2. Return the calculated value of pi_approx.

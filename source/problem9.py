@@ -18,8 +18,8 @@ def calculate_quadratic_equation_roots(
 ) -> Tuple[Union[float, complex], Union[float, complex]]:
     """Calculate the roots of a quadratic equation."""
     D = (b * b - 4 * a * c) ** 0.5
-    # TODO 4. x_one = quantity (`b` plus `D`) divided by quantity (2 times a)
-    # TODO 5. x_two =  quantity (`b` minus `D`) divided by quantity (2 times a)
+    # TODO 4. x_one = quantity (`b` plus `D`) divided by quantity (2 times `a`)
+    # TODO 5. x_two =  quantity (`b` minus `D`) divided by quantity (2 times `a`)
     # TODO 6. Fix another error near this line
 # end of calculate_quadratic_equation_roots()
 
@@ -32,10 +32,10 @@ c = 2
 print("Calculating the roots of a quadratic equation with:")
 # TODO 1. Print out the values a, b and c
 
-# TODO 2: perform the calculation of the roots for the quadratic equation
+# TODO 2: perform the calculation of the two roots for the quadratic equation
 
-# TODO 3. print output the values from running the calculation of the quadratic
-# equation's roots with the calculate_quadratic_equation_roots function
+# TODO 3. print the output values from running the calculation of the quadratic
+# equation's roots with the calculate_quadratic_equation_roots() function
 print()
 print(":star: Finished computing the roots of the equation as:")
 print(f"   x_one = {x_one}")
