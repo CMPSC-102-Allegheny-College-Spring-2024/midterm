@@ -47,12 +47,62 @@ jobs:
           if: always()
           run: |
             pip install pipenv
-        # Run the Python program
-        - name: Run Python Program
+
+        # Run the Python program 1
+        - name: Run Python Program 1
           if: always()
           run: |
-            cd source
-            python program1.py
+            python3 source/problem1.py 
+
+        # Run the Python program 2
+        - name: Run Python Program 2
+          if: always()
+          run: |
+            python3 source/problem2.py 
+
+        # Run the Python program 3
+        - name: Run Python Program 3
+          if: always()
+          run: |
+            python3 source/problem3.py 
+
+        # Run the Python program 4
+        - name: Run Python Program 4
+          if: always()
+          run: |
+            python3 source/problem4.py 
+
+        # Run the Python program 5
+        - name: Run Python Program 5
+          if: always()
+          run: |
+            python3 source/problem5.py 
+
+        # Run the Python program 6
+        - name: Run Python Program 6
+          if: always()
+          run: |
+            python3 source/problem6.py 
+
+        # Run the Python program 7
+        - name: Run Python Program 7
+          if: always()
+          run: |
+            python3 source/problem7.py 
+
+        # Run the Python program 8
+        - name: Run Python Program 8
+          if: always()
+          run: |
+            python3 source/problem8.py 
+
+        # Run the Python program 9
+        - name: Run Python Program 9
+          if: always()
+          run: |
+            python3 source/problem9.py 
+
+
         # Run GatorGrader: see config/gatorgrade.yml
         - name: Run GatorGrader with GatorGrade
           if: always()
